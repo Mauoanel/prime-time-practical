@@ -1,0 +1,161 @@
+
+#mainapp .row{
+    margin-top:100px;
+    margin-bottom: 75px;
+}
+.navbar {
+    min-height: 75px;
+}
+
+.navbar-header {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.navbar-brand {
+    padding: 10px 3px;
+}
+
+.navbar-brand .main-logo{
+    height: 60px;
+}
+
+.navbar-brand .secondary-logo{
+    height: 45px;
+    margin-top: 8px;
+}
+
+.text-danger {
+    color: #ff0601;
+}
+
+.page-header {
+    padding-bottom: 8px;
+    font-size: 23px;
+}
+
+.form-description {
+    background: #f9f9f9;
+    padding: 6px;
+}
+
+label.required:after {
+    content:" *";
+    color:red;
+    font-size: 1.1em;
+}
+
+.help-block {
+    font-size: 0.9em;
+    padding-left: 4px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+.loader-small {
+    border: 5px solid #f3f3f3;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    border-top: 5px solid #555;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+
+.footer {
+    background-color: #efefef;
+    padding: 40px 0;
+    position: absolute;
+    width: 100%;
+	clear: both;
+    bottom: 0;
+	padding: 0;
+    margin: 0;
+}
+.footer a,
+.footer p {
+  color: #656565;
+}
+.col-list {
+  display: flex;
+  flex-direction: column;
+}
+.col-list img {
+  width: 100%;
+  height: auto;
+}
+.grid-gutter li {
+  padding: 0 30px 0 0;
+}
+.jc-ac {
+  justify-content: space-between;
+  align-items: center;
+}
+.col-list li {
+    flex: none;
+    width: 100%;
+    margin-top: 20px;
+}
+.styled-list, .col-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+.styled-list .glyphicon {
+  font-size: 6px;
+  transform: translateY(-4px);
+  padding-right: 5px;
+}
+.styled-list li {
+  padding: 3px 0;
+}
+@media(min-width: 768px){
+  .col-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .col-list li {
+    width: 20%;
+  }
+}
+
+.example-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+  }
+  
+  .example-header {
+    min-height: 64px;
+    padding: 8px 24px 0;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .mat-table {
+    overflow: auto;
+    max-height: 500px;
+  }
+  
+  
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
